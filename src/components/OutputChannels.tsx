@@ -35,7 +35,6 @@ const OutputChannels: React.FC<OutputChannelsProps> = ({ content }) => {
             <div className="laptop-trackpad"></div>
           </div>
         </div>
-        <div className="device-label">Website</div>
       </div>
 
       {/* Mobile Phone */}
@@ -55,7 +54,6 @@ const OutputChannels: React.FC<OutputChannelsProps> = ({ content }) => {
             </div>
           </div>
         </div>
-        <div className="device-label">Mobile App</div>
       </div>
 
       {/* Kiosk */}
@@ -76,7 +74,6 @@ const OutputChannels: React.FC<OutputChannelsProps> = ({ content }) => {
             <div className="kiosk-base"></div>
           </div>
         </div>
-        <div className="device-label">In-store Kiosk</div>
       </div>
     </div>
   );
