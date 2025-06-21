@@ -7,9 +7,9 @@ import Header from './components/Header';
 
 function App() {
   const [content, setContent] = useState({
-    title: 'Our Amazing Product',
-    description: 'Discover the perfect solution for your needs.',
-    ctaText: 'Buy now',
+    title: 'Contentful',
+    description: 'Create once, publish everywhere.',
+    ctaText: 'Learn More',
     price: '$29.99'
   });
 
