@@ -45,7 +45,7 @@ const OutputChannels: React.FC<OutputChannelsProps> = ({ content }) => {
             <div className="phone-screen">
               <div className="mobile-content">
                 <h5>{content.title}</h5>
-                <p>{content.description.slice(0, 80)}...</p>
+                <p>{content.description}</p>
                 <div className="mobile-actions">
                   <span className="mobile-price">{content.price}</span>
                   <button className="mobile-cta">{content.ctaText}</button>
